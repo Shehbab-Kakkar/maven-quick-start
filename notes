@@ -1,0 +1,2 @@
+create pom.xml file
+run: mvn compile
