@@ -49,3 +49,5 @@ target
     └── .gitkeep
 
 7 directories, 5 files
+------------------
+mvn clean will remove target folder
