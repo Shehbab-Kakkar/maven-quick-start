@@ -1,2 +1,51 @@
 create pom.xml file
 run: mvn compile
+-----------------
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>clinic.programmming</groupId>
+  <artifactId>maven-quick-start</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+</project>
+----------------
+java -cp maven-quick-start-1.0.jar clinic.programming.training.Application
+----------------
+centos7 maven-quick-start]# tree -Aa src/
+src/
+├── main
+│   ├── java
+│   │   ├── clinic
+│   │   │   └── programming
+│   │   │       └── training
+│   │   │           └── Application.java
+│   │   └── .gitkeep
+│   └── resources
+│       └── .gitkeep
+└── test
+    ├── java
+    │   └── .gitkeep
+    └── resources
+        └── .gitkeep
+
+9 directories, 5 files
+[root@centos7 maven-quick-start]# tree -Aa target
+target
+├── classes
+│   ├── clinic
+│   │   └── programming
+│   │       └── training
+│   │           └── Application.class
+│   └── .gitkeep
+├── maven-archiver
+│   └── pom.properties
+├── maven-quick-start-1.0.jar
+├── surefire
+└── test-classes
+    └── .gitkeep
+
+7 directories, 5 files
